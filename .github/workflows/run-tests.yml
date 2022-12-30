@@ -39,7 +39,7 @@ jobs:
        #   key: ${{secrets.SSH_KEY}}
         #  passphrase: ${{ secrets.SSH_PASS }}
           script: |
-            echo 'Welcome to my server'
+            echo 'Checkout test'
             cd /home/power
             git pull
             echo 'Check change'
