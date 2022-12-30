@@ -2,9 +2,7 @@ name: deploy flask project to vps
 
 # Hello world! Run this to push
 
-on: 
-  push:
-    branches: [ master ]
+on: push
 
 
 jobs:
