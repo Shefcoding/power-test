@@ -38,9 +38,9 @@ jobs:
         #  passphrase: ${{ secrets.SSH_PASS }}
           script: |
             echo 'Checkout test'
-            cd /home/power
+            cd /home/power-test
             git pull
             echo 'Check change'
-            cd
-            systemctl restart lib
-            echo 'Restart complete'
+           # cd
+            #systemctl restart lib
+            #echo 'Restart complete'
