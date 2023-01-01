@@ -39,7 +39,7 @@ jobs:
           script: |
             echo 'Checkout test'
             ssh-agent -s
-            ssh -v git@github.com
+            ssh -A root@134.122.50.50
             cd /home/power-test
             git pull
             echo 'Check change'
