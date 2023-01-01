@@ -38,7 +38,7 @@ jobs:
         #  passphrase: ${{ secrets.SSH_PASS }}
           script: |
             echo 'Checkout test'
-            eval "$(ssh-agent -s)"
+            ssh-agent -s
             cd /home/power-test
             git pull
             echo 'Check change'
