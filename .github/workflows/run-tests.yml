@@ -34,12 +34,12 @@ jobs:
           host: ${{secrets.SSH_HOST}}
           username: ${{secrets.SSH_USERNAME}}
           password: ${{secrets.SSH_PASSWORD}} 
-          key: ${{secrets.SSH_KEY}}
+          #key: ${{secrets.SSH_KEY}}
         #  passphrase: ${{ secrets.SSH_PASS }}
           script: |
             echo 'Checkout test'
-            ssh-agent -s
-            ssh -A root@134.122.50.50
+            eval $(ssh-agent)
+            ssh-add -L
             cd /home/power-test
             git pull
             echo 'Check change'
