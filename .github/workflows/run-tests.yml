@@ -40,6 +40,7 @@ jobs:
             echo 'Checkout test'
             eval $(ssh-agent)
             ssh-add -L
+            ssh-add -K
             cd /home/power-test
             git pull
             echo 'Check change'
