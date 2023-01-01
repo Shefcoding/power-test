@@ -41,6 +41,6 @@ jobs:
             cd /home/power-test
             git pull
             echo 'Check change'
-           # cd
-            #systemctl restart lib
-            #echo 'Restart complete'
+            cd
+            systemctl restart lib
+            echo 'Restart complete'
