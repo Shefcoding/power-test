@@ -13,7 +13,7 @@ def power():
 
 @app.route('/cow')
 def cow():
-    return 'MOoooOoo!'
+    return 'MOoooOoohuilen!'
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
