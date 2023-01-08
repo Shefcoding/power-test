@@ -9,7 +9,8 @@ app = Flask(__name__)
 def power():
     x=2
     y=2
-    return x**y
+    z= x**y
+    return f'{x} * {y} = {z}'
 
 @app.route('/cow')
 def cow():
