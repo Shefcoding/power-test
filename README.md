@@ -1,6 +1,6 @@
-# *** Final Assignment: CD Report***
+# ***Final Assignment: CD Report***
 
-## *** Main components used ***
+## ***Main components used***
 The main components I used in this exercise were Github Actions, SSH Keys and configuration my flask app with Gunicorn.
 
 ### **Github Actions** 
