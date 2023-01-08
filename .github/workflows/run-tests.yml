@@ -42,5 +42,5 @@ jobs:
             git pull
             echo 'Check change'
             cd
-            systemctl restart lib
+            systemctl restart power-test
             echo 'Restart complete'
